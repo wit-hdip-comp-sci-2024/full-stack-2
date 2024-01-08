@@ -1,0 +1,59 @@
+title : Semester 3
+weeks :
+  - 2024-01-08 :
+      title : 0
+      type  : Induction
+  - 2024-01-15 :
+      title : 1
+      type  : Tuition
+  - 2024-01-22 :
+      title : 2
+      type  : Tuition
+  - 2024-01-29 :
+      title : 3
+      type  : Tuition
+  - 2024-02-05 :
+      title : Reading 1
+      type  : Reading
+  - 2024-02-12 :
+      title : 4
+      type  : Tuition
+  - 2024-02-19 :
+      title : 5
+      type  : Tuition
+  - 2024-02-26 :
+      title : Reading 2
+      type  : Readng 
+  - 2024-03-04 :
+      title : 6
+      type  : Tuition
+  - 2024-03-11 :
+      title : 7
+      type  : Tuition
+  - 2024-03-18 :
+      title : 8
+      type  : Tuition
+  - 2024-03-25 :
+      title : Easter 1
+      type  : Reading
+  - 2024-04-01 :
+      title : Easter 2
+      type  : Reading
+  - 2024-04-08 :
+      title : 9
+      type  : Reading
+  - 2024-04-15 :
+      title : 10
+      type  : Tuition
+  - 2024-04-22 :
+      title : 11
+      type  : Tuition
+  - 2024-04-29 :
+      title : 12
+      type  : Tuition
+  - 2024-05-06 :
+      title : Reading 4
+      type  : Reading 4
+  - 2024-05-13 :
+      title : Reading 5
+      type  : Reading 5
