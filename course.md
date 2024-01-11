@@ -1,4 +1,4 @@
-Full Stack Web Development
+Full Stack Web Development 2
 
-javascript · node · apis · tdd · frameworks · front-end · svelte 
+React · SPA · Front-End Dev 
 
