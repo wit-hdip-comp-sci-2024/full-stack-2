@@ -1,21 +1,21 @@
 // Define the types for the shared structures
 
-export type Framework = {
-    url: string;
-    name: string;
+export interface Framework {
+  url: string;
+  name: string;
 };
-  
-  export type FrameworksInfo = {
-    bestFrameworks: Framework[];
-    type: string;
-  };
-  
-  export type LanguagesInfo = {
-    list: string[];
-    title: string;
-  };
-  
-  export type TechData = {
-    frameworks: FrameworksInfo;
-    languages: LanguagesInfo;
-  };
+
+export  interface FrameworksInfo {
+  bestFrameworks: Framework[];
+  type: string;
+};
+
+export interface LanguagesInfo {
+  list: string[];
+  title: string;
+};
+
+export interface TechData {
+  frameworks: FrameworksInfo;
+  languages: LanguagesInfo;
+};
