@@ -1,3 +1,3 @@
 # Development Tools
  
-Introduce Vite the Storybook development tool.
+Vite and the Storybook development tool.
