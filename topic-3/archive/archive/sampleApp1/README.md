@@ -1,15 +1,11 @@
-# SampleApp1 - React + TypeScript + Vite
+# Friends App 1
 
-This is a sample app to demonstrate data flow patterns in a React app using TypeScript and Vite.
+This is a sample app for Full Stack 2. 
 
-+ Hooks (useState, useEffect) 
-+ Side Effect example(async API call)
+To install and run, do:
 
-## Install & Run
-
-In the root directory, run:
-
-```bash
+~~~bash
 npm install
 npm run dev
-```
+~~~
+
