@@ -2,7 +2,7 @@ import React, { useState, useEffect, ChangeEvent } from "react";
 import FilteredFriendList from "./components/filteredFriendList";
 import FriendContact from "./components/friendContact";
 import FriendImage from "./components/friendImage";
-import { friendProps } from "./components/friendProps";
+import { friendProps } from "./components/interfaces";
 
 const FriendsApp = () => {
   const [searchText, setSearchText] = useState("");

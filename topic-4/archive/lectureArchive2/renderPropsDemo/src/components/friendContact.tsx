@@ -1,12 +1,12 @@
 import React from "react";
-import {friendProps} from "./friendProps"
+import {friendProps} from "./interfaces"
 
-const Friend: React.FC<friendProps> = (props) => {
+const Friend: React.FC<friendProps> = ({name, email}) => {
   return (
     <li >
-      <h3>{` ${props.name.first} ${props.name.last}`}</h3>
-      <a href={"mailto:" + props.email}>
-        {props.email}{" "}
+      <h3>{` ${name.first} ${name.last}`}</h3>
+      <a href={"mailto:" + email}>
+        {email}{" "}
       </a>
     </li>
   );

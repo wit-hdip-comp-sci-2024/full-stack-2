@@ -1,12 +1,12 @@
 import React from "react";
-import {friendProps} from "./friendProps"
+import {friendProps} from "./interfaces"
 
-const FriendImage: React.FC<friendProps> = (props) => {
+const FriendImage: React.FC<friendProps> = ({name, picture}) => {
  
   return (
     <li>
-      <h3>{` ${props.name.first} ${props.name.last}`}</h3>
-      <img src={props.picture.medium} />
+      <h3>{` ${name.first} ${name.last}`}</h3>
+      <img src={picture.medium} />
     </li>
   );
 };

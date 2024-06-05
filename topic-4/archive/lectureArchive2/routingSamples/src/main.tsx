@@ -1,1 +1,1 @@
-import './sample1/';
+import './sampleChildren/';

@@ -1,10 +1,10 @@
 import React from "react";
 // import Friend from ....  STATIC DEPENDENCY
-import { FilteredFriendListProps } from "./friendProps";
+import { FilteredFriendListProps } from "./interfaces";
 
-const FilteredFriendList:React.FC<FilteredFriendListProps>  = (props) => {
-  const friends = props.list.map((item) => 
-      props.render(item)
+const FilteredFriendList:React.FC<FilteredFriendListProps>  = ({list, render}) => {
+  const friends = list.map((item) => 
+      render(item)
   );
   return <ul>{friends}</ul>;
 };
