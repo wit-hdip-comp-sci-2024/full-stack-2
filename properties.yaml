@@ -7,4 +7,4 @@ auth: 1
 ignorepin: 1313
 github: https://github.com/wit-hdip-comp-sci-2023/full-stack-2/tree/main
 ignore:
- - topic-5
+ #- topic-5
