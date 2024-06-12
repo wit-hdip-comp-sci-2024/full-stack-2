@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Navigate, Link, Routes } from "react-router-dom";
 import RegisterDeclarative from "./registerDeclarative";
 import RegisterImperative from "./registerImperative";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <>
       <ul>
@@ -20,7 +20,7 @@ const Home = () => {
   );
 };
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Routes>

@@ -4,7 +4,8 @@ import { AuthContextInterface } from "../types/interfaces";
 
 export const AuthContext = createContext<AuthContextInterface | null>(null);
 
-const AuthContextProvider: React.FC<React.PropsWithChildren> = (props) => {
+const AuthContextProvider: React.FC<React.PropsWithChildren> = ({children}) => {
+
   const [token, setToken] = useState<string | null>(null);
 
   const authenticate = async (username: string, password: string) => {
@@ -24,7 +25,7 @@ const AuthContextProvider: React.FC<React.PropsWithChildren> = (props) => {
         signout,
       }}
     >
-      {props.children}
+      {children}
     </AuthContext.Provider>
   );
 };
