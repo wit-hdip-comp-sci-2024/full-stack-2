@@ -1,6 +1,9 @@
 title : Semester 3
 weeks :
   - 2024-05-20 :
+      title : 0
+      type  : Module Overview
+  - 2024-05-20 :
       title : 1
       type  : Introdution
   - 2024-05-27 :
