@@ -1,4 +1,4 @@
-# Assignments.
+# Assignment
  
 Module assignment specification.
 
