@@ -1,11 +1,14 @@
-slack: https://wit-hdip-comp-sci-23.slack.com
+slack: https://setu-hdip-comp-sci-25.slack.com/
 moodle: https://moodle.wit.ie/
-youtube: https://www.youtube.com/playlist?list=PLEuhMaR29LyBzcMn4nSfJ2XISwz7ZfZbF
-parent: course/wit-hdip-comp-sci-2023
+parent: course/setu-hdip-comp-sci-2025
 credits: Frank Walsh
 auth: 1
 ignorepin: 1313
-github: https://github.com/wit-hdip-comp-sci-2023/full-stack-2/tree/main
+github: https://github.com/wit-hdip-comp-sci-2025/full-stack-2
 ignore:
- #- topic-6
- #- topic-7
+  topic-2
+  topic-3
+  topic-4
+  topic-5
+  topic-6
+  topic-7
